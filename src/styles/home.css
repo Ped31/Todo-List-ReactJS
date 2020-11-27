@@ -102,6 +102,16 @@ form button:hover {
   padding: 2px 4px;
 }
 
+.counter{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+input.todo-input:focus {
+    outline-width: 0;
+}
+
 
 
 

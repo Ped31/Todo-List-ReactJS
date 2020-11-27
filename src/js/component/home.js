@@ -25,6 +25,7 @@ export function Home() {
 				setInputText={setInputText}
 			/>
 			<TodoList todos={todos} setTodos={setTodos} />
+			<div className="counter">{todos.length} tasks left</div>
 		</div>
 	);
 }
